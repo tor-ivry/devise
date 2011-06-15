@@ -1,0 +1,40 @@
+heb:
+  error:
+    messages:
+      not_found: "לא נמצא"
+      already_confirmed: "כבר אושר"
+      not_locked: "לא היה נעול"
+
+  devise:
+    failure:
+      unauthenticated: 'עליך להיכנס או להרשם לחשבון בכדי להמשיך.'
+      unconfirmed: 'עליך לאשר את חשבונך לפני שתמשיך.'
+      locked: 'חשבונך נעול.'
+      invalid: 'דואל או סיסמא לא תקינים.'
+      invalid_token: 'סימן אימות לא תקין.'
+      timeout: 'זמן הפעילות המותר חלף, אנא היכנס מחדש בכדי להמשיך.'
+      inactive: 'עדיין לא הפעלת את חשבונך.'
+    sessions:
+      signed_in: 'הכניסה בוצעה בהצלחה.'
+      signed_out: 'היציאה בוצעה בהצלחה.'
+    passwords:
+      send_instructions: 'בעוד כמה דקות תקבל דואל עם הנחיות כיצד לחדש את סיסמתך.'
+      updated: 'סיסמתך שונתה בהצלחה. כעת נכנסת לאתר.'
+    confirmations:
+      send_instructions: 'בעוד כמה דקות תקבל דואל עם הנחיות כיצד לאשר את חשבןנך.'
+      confirmed: 'חשבונך אושר בהצלחה. כעת נכנסת לאתר.'
+    registrations:
+      signed_up: 'נרשמת בהצלחה לאתר. אישור נשלח לכתובת הדואל שלך.'
+      updated: 'עדכנת את חשבונך בהצלחה.'
+      destroyed: 'להתראות! חשבונת בוטל בהצלחה. מקווים לראותך שוב בקרוב.'
+    unlocks:
+      send_instructions: 'בעוד כמה דקות תקבל דואל עם הנחיות כיצד לשחרר את חשבונך הנעול.'
+      unlocked: 'הוסרה הנעילה מחשבונך. כעת נכנסת לאתר.'
+    mailer:
+      confirmation_instructions:
+        subject: 'הנחיות לאישור החשבון'
+      reset_password_instructions:
+        subject: 'הנחיות לאיפוס הסיסמא'
+      unlock_instructions:
+        subject: 'הנחיות לפתיחת הנעילה'
+
